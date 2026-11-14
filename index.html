@@ -20,7 +20,7 @@
     <main>
       <div class="intro">
         <div>
-          <div class="eyebrow">BENVENUTI NEL LABORATORIO</div>
+          <div class="eyebrow">ALLA SCOPERTA DEL SISTEMA BINARIO</div>
           <h1>Dal decimale<br /><span>al binario.</span></h1>
         </div>
         <div class="hero-art" aria-hidden="true">
@@ -29,16 +29,7 @@
           <p>0 + 4 + 2 + 0 <strong>= 6</strong></p>
         </div>
       </div>
-      <nav aria-label="Percorso didattico">
-        <button class="active" data-page="place">
-          01 <span>Numerazione posizionale</span></button
-        ><button data-page="explore">02 <span>Esplora i bit</span></button
-        ><button data-page="basics">03 <span>Le basi</span></button
-        ><button data-page="convert">04 <span>Converti</span></button
-        ><button data-page="practice">05 <span>Mettiti alla prova</span></button
-        ><button data-page="sheets">06 <span>Google Fogli</span></button
-        ><button data-page="calc">07 <span>Calcolatore</span></button>
-      </nav>
+      <nav aria-label="Percorso didattico"><button class="active" data-page="place">01 <span>Numerazione posizionale</span></button><button data-page="explore">02 <span>Esplora i bit</span></button><button data-page="basics">03 <span>Le basi</span></button><button data-page="convert">04 <span>Converti</span></button><button data-page="calc">05 <span>Calcolatore</span></button><button data-page="practice">06 <span>Mettiti alla prova</span></button><button data-page="sheets">07 <span>Google Fogli</span></button></nav>
       <section id="place" class="page">
         <div class="section-head">
           <div>
@@ -179,90 +170,18 @@
         </div>
       </section>
       <section id="basics" class="page" hidden>
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">PRIMA IL SIGNIFICATO</div>
-            <h2>Stesso numero, due modi di scriverlo.</h2>
-            <p>
-              La base indica quante cifre puoi usare. La posizione stabilisce
-              quanto valgono.
-            </p>
-          </div>
-        </div>
-        <div class="two">
-          <article class="card">
-            <span class="pill">BASE 10</span>
-            <h3>Il sistema decimale</h3>
-            <p>Usa dieci cifre: <b>0, 1, 2, 3, 4, 5, 6, 7, 8, 9</b>.</p>
-            <div class="formula">347₁₀</div>
-            <div class="positions">
-              <div>3 × 10²<b>300</b></div>
-              <div>4 × 10¹<b>40</b></div>
-              <div>7 × 10⁰<b>7</b></div>
-            </div>
-            <p>
-              300 + 40 + 7 = <b>347</b>. Il 3 vale tre centinaia perché è nella
-              posizione delle centinaia.
-            </p>
-          </article>
-          <article class="card pale">
-            <span class="pill">BASE 2</span>
-            <h3>Il sistema binario</h3>
-            <p>
-              Usa due cifre: <b>0 e 1</b>. Una cifra binaria si chiama
-              <b>bit</b>.
-            </p>
-            <div class="formula">101₂</div>
-            <div class="positions">
-              <div>1 × 2²<b>4</b></div>
-              <div>0 × 2¹<b>0</b></div>
-              <div>1 × 2⁰<b>1</b></div>
-            </div>
-            <p>
-              4 + 0 + 1 = <b>5₁₀</b>. Il primo 1 da sinistra vale quattro,
-              quello da destra vale uno.
-            </p>
-          </article>
-        </div>
-        <div class="card">
-          <h3>Perché i pesi raddoppiano?</h3>
-          <p>
-            Le posizioni, contate da destra a partire da <b>0</b>, corrispondono
-            alle potenze della base. Ricorda: <b>2⁰ = 1</b>, non 0.
-          </p>
-          <div class="powers">
-            2⁰ = 1 → 2¹ = 2 → 2² = 4 → 2³ = 8 → 2⁴ = 16 → …
-          </div>
-        </div>
-        <div class="tips">
-          <article>
-            <h3>Un byte = 8 bit</h3>
-            <p>
-              Con n bit hai <b>2ⁿ combinazioni</b>. Con 8 bit: 256 combinazioni,
-              da <b>0 a 255</b> per interi senza segno.
-            </p>
-          </article>
-          <article>
-            <h3>Attenzione alla base</h3>
-            <p>
-              <b>10₂ = 2₁₀</b>, mentre <b>10₁₀ = 10</b>. Il piccolo numero in
-              basso indica la base, non un esponente.
-            </p>
-          </article>
-          <article>
-            <h3>Due stati fisici</h3>
-            <p>
-              Nei circuiti elettronici, due stati distinguibili rappresentano 0
-              e 1. Qui li visualizziamo come interruttori spenti e accesi.
-            </p>
-          </article>
-        </div>
-        <div class="note">
-          In questo laboratorio lavoriamo con
-          <b>numeri interi non negativi, senza segno</b>. Gli zeri iniziali non
-          cambiano il valore: 00101₂ = 101₂.
-        </div>
-      </section>
+<div class="section-head"><div><div class="eyebrow">LE PAROLE DEL BINARIO</div><h2>Il binario in 4 mosse</h2><p>Niente paura: bastano due cifre e un po’ di raddoppi. Leggi le mosse in ordine, una dopo l’altra.</p></div></div>
+<div class="moves">
+<article class="move c0"><span class="num">1</span><h3>💡 Un bit è un interruttore</h3><p>Un interruttore può essere <b>spento</b> (0) o <b>acceso</b> (1). Il computer è pieno di interruttori. Una cifra binaria si chiama <b>bit</b>.</p><div class="sws"><span class="sw off">0</span><span class="sw on">1</span></div></article>
+<article class="move c2"><span class="num">2</span><h3>🚂 Una fila di bit è un numero</h3><p>Mettendo i bit in fila si scrivono i numeri: <b>1101₂</b> è fatto da 4 bit. Una fila di <b>8 bit</b> si chiama <b>byte</b>.</p><div class="sws"><span class="sw on">1</span><span class="sw on">1</span><span class="sw off">0</span><span class="sw on">1</span></div></article>
+<article class="move c3"><span class="num">3</span><h3>⚖️ Ogni posto ha un peso</h3><p>Partendo da destra i pesi sono <b>1, 2, 4, 8, 16…</b>: ognuno è il <b>doppio</b> di quello alla sua destra. Sono le <b>potenze di 2</b>.</p><div class="wstrip" aria-label="Pesi dei bit da 128 a 1"></div><p class="small">2⁰ = 1 (non 0!), 2¹ = 2, 2² = 4, 2³ = 8…</p></article>
+<article class="move c4"><span class="num">4</span><h3>➕ Somma i pesi dei bit accesi</h3><p>Il valore è la somma delle potenze di 2 dove c’è un <b>1</b>. Dove c’è uno <b>0</b> la potenza viene moltiplicata per 0 e <b>sparisce</b>.</p></article>
+</div>
+<div class="card"><h3>Esempio: quanto vale 1101₂?</h3><div class="pd-scroll" id="basicsDiagram"></div><p>Il 4° bit da destra pesa 8, il 3° pesa 4, il 2° (uno zero) sparisce, il 1° pesa 1: 8 + 4 + 0 + 1 = <b>13</b>. Proprio come in base 10: 347 = 300 + 40 + 7.</p></div>
+<div class="gloss"><div><b>Bit</b>una cifra binaria: 0 o 1</div><div><b>Byte</b>un gruppo di 8 bit</div><div><b>Base</b>quante cifre si usano (10 oppure 2)</div><div><b>Posto</b>dove sta la cifra, da destra: 0, 1, 2…</div><div><b>Peso</b>quanto vale quel posto: 1, 2, 4, 8…</div><div><b>Riporto</b>quando la colonna è piena si passa a quella a sinistra</div></div>
+<div class="tips"><article><h3>Occhio al pedice</h3><p><b>10₂ = 2₁₀</b>, mentre <b>10₁₀ = 10</b>. Il numerino in basso dice la base, non è un esponente.</p></article><article><h3>Gli zeri a sinistra</h3><p>Non cambiano il valore: <b>00101₂ = 101₂ = 5</b>. Gli zeri nel mezzo invece vanno tenuti!</p></article><article><h3>Quante combinazioni?</h3><p>Con n bit si fanno <b>2ⁿ</b> numeri. Con 8 bit (un byte) sono 256, da <b>0 a 255</b>.</p></article></div>
+<div class="note">In questo laboratorio usiamo <b>numeri interi non negativi</b> (senza segno).</div></section>
+
       <section id="convert" class="page" hidden>
         <div class="section-head">
           <div>
@@ -290,7 +209,7 @@
               maxlength="16"
             /><button class="dark">Prepara i passaggi</button>
           </form>
-          <div class="presets" id="manualExamples"></div>
+          <div id="manualExamples"></div>
           <p id="convertError" class="error" role="alert"></p>
           <div id="conversion"></div>
         </div>
@@ -565,7 +484,10 @@
           </p>
         </details>
       </section>
-      <section id="practice" class="page" hidden>
+      <section id="calc" class="page" hidden><div class="section-head"><div><div class="eyebrow">ORA TOCCA A TE</div><h2>Il calcolatore automatico</h2><p>Scrivi un numero in uno dei due campi: l’altro si aggiorna subito. Prima prova a prevedere il risultato, poi controlla!</p></div></div><div class="card calc-card"><div class="calc-grid"><label>Decimale (base 10)<input id="cDec" inputmode="numeric" autocomplete="off" aria-label="Numero decimale"></label><div class="calc-arrow" aria-hidden="true">⇄</div><label>Binario (base 2)<input id="cBin" inputmode="numeric" autocomplete="off" aria-label="Numero binario"></label></div>
+<p id="calcMsg" role="alert"></p><div class="presets" id="calcEx"></div><div class="place-actions"><button id="cRand" class="dark">🎲 Numero a caso</button><button id="cClear" class="quiet">Pulisci</button></div><div id="calcSteps" class="steps" aria-live="polite"></div><p class="small">Interi senza segno, fino a 32 bit (4 294 967 295).</p></div>
+</section>
+<section id="practice" class="page" hidden>
         <div class="section-head">
           <div>
             <div class="eyebrow">ALLENAMENTO</div>
@@ -575,7 +497,7 @@
               rivedere.
             </p>
           </div>
-          <div class="score" id="score">0 corrette / 0 completate</div>
+          <div class="score-box"><div class="score" id="score">0 corrette / 0 completate</div><div class="score streak" id="streak">🔥 Serie: 0</div><div class="score" id="best">🏆 Record: 0</div></div>
         </div>
         <div class="two practice-grid">
           <div class="card">
@@ -624,63 +546,19 @@
               quoziente 0. Annota i resti e leggili dal basso verso l’alto.
             </p>
             <div class="note">
-              Il punteggio conta le risposte corrette al primo tentativo. Puoi
-              riprovare; gli esercizi con soluzione mostrata contano come
-              completati.
+              Il punteggio conta le risposte corrette al primo tentativo. La
+              <b>serie</b> sono le risposte giuste di fila: se sbagli (o guardi la soluzione) torna a 0.
+              Il <b>record</b> resta salvato su questo dispositivo.
             </div>
-            <button class="quiet" id="resetScore">Azzera punteggio</button>
+            <button class="quiet" id="resetScore">Azzera punteggio</button> <button class="text-button" id="resetBest" type="button">Azzera record</button>
           </aside>
         </div>
       </section>
-      <section id="calc" class="page" hidden>
-        <div class="section-head">
-          <div>
-            <div class="eyebrow">ORA TOCCA A TE</div>
-            <h2>Il calcolatore di conversioni</h2>
-            <p>
-              Scrivi un numero in uno dei due campi: l’altro si aggiorna subito
-              e sotto vedi il procedimento.
-            </p>
-          </div>
-        </div>
-        <div class="card calc-card">
-          <div class="calc-grid">
-            <label
-              >Decimale (base 10)<input
-                id="cDec"
-                inputmode="numeric"
-                autocomplete="off"
-                aria-label="Numero decimale"
-            /></label>
-            <div class="calc-arrow" aria-hidden="true">⇄</div>
-            <label
-              >Binario (base 2)<input
-                id="cBin"
-                inputmode="numeric"
-                autocomplete="off"
-                aria-label="Numero binario"
-            /></label>
-          </div>
-          <p id="calcMsg" role="alert"></p>
-          <div class="presets" id="calcEx"></div>
-          <div class="place-actions">
-            <button id="cRand" class="dark">🎲 Numero a caso</button
-            ><button id="cClear" class="quiet">Pulisci</button>
-          </div>
-          <div id="calcSteps" class="steps" aria-live="polite"></div>
-        </div>
-        <div class="note">
-          Il calcolatore lavora con numeri interi senza segno, fino a 32 bit (4
-          294 967 295). Prima prova a prevedere il risultato, poi controlla!
-        </div>
-      </section>
-      <footer>
-        <span
-          >© Alasia Maria Gastaudo - Tutti i diritti riservati - Sito per fini
-          didattici</span
-        >
-      </footer>
+      
+      
     </main>
+<footer><span>© 2026 Alasia Gastaudo · Tutti i diritti riservati · Sito per fini didattici</span><span class="eula-short">Uso consentito solo per studio e didattica, senza scopo commerciale. Vietate riproduzione, modifica e ridistribuzione (anche online) senza autorizzazione scritta dell’autrice.</span>
+<details class="eula"><summary>Condizioni d’uso (EULA)</summary><p>Il software e tutto il materiale correlato sono di proprietà esclusiva di Alasia Gastaudo.</p><ol><li><b>Licenza.</b> Uso consentito solo per finalità personali, di studio o di test privato e non commerciale.</li><li><b>Divieti.</b> Vietate riproduzione, distribuzione, modifica, decompilazione (reverse engineering) e qualsiasi alterazione del codice sorgente e dei file correlati senza autorizzazione esplicita dell’autrice.</li><li><b>Condivisione.</b> Vietata la ridistribuzione del software o del codice su altre piattaforme online, social media o siti di terzi senza consenso scritto.</li><li><b>Uso commerciale.</b> Vietato qualsiasi utilizzo a fini commerciali o lucrativi, con guadagno diretto o indiretto.</li><li><b>Tutela legale.</b> Ogni uso non autorizzato sarà perseguito ai sensi della Legge 22 aprile 1941, n. 633 e successive modifiche e delle leggi internazionali sul diritto d’autore.</li></ol></details></footer>
     <script src="math.js"></script>
     <script src="app.js"></script>
     <script src="manual.js"></script>
